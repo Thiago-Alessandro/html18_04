@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'novoProjeto';
+
+  appBotaoClick(): void{
+    console.log("appBotaoClick")
+  }
+
+  appBotaoMouseOver():void{
+    console.log("appBotaoMouseOver")
+  }
+
 }
+
